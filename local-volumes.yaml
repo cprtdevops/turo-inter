@@ -1,6 +1,7 @@
 apiVersion: v1
 kind: PersistentVolume
 metadata:
+  namespace: argocd
   name: local-pv-1
   labels:
     type: local
@@ -15,6 +16,7 @@ spec:
 apiVersion: v1
 kind: PersistentVolume
 metadata:
+  namespace: argocd
   name: local-pv-2
   labels:
     type: local
